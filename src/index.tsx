@@ -1,10 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import { CocktailApp } from "./App";
+import { App } from "./App";
 
 ReactDOM.render(
   <React.StrictMode>
-    <CocktailApp />
+    <App />
   </React.StrictMode>,
   document.getElementById("root")
 );
