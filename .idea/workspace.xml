@@ -5,26 +5,48 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe83500f-f9fc-4221-ac61-f71d572f0c20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Async.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CocktailsApp.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DateTimeProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DateTimeService.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FormattedDateTime.spec.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/FormattedDateTime.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HttpTransport.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ServiceProvider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Services.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TimerApp.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Async/Async.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Async/AsyncState.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Components/CockitalsFilter.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Components/CocktailCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Components/CocktailList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Components/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Controllers/CocktailsController.spec.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Controllers/CocktailsController.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Controllers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Services/CocktailsDb.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Cocktails/Services/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Container/ServiceProvider.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Container/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Http/ApiClient.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Http/HttpTransportProvider.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Http/HttpTransportService.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Http/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Query/QueryBuilder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Query/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Async.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CocktailsApp.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTimeProvider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DateTimeService.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormattedDateTime.spec.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/FormattedDateTime.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HttpTransport.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ServiceProvider.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TimerApp.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/setupTests.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +57,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="TypeScript File" />
         <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -64,7 +86,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ioc" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/repo" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -72,15 +94,23 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="inlay.hints.TypeScript" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/fetching-data/src" />
+      <recent name="$PROJECT_DIR$/fetching-data" />
+      <recent name="$PROJECT_DIR$/src/fetching-data" />
+      <recent name="$PROJECT_DIR$/src/inversion-of-control" />
       <recent name="$PROJECT_DIR$/src/ioc" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/repo/src/Cocktails/Providers" />
+      <recent name="$PROJECT_DIR$/repo/src/Services" />
+      <recent name="$PROJECT_DIR$/repo/src/Query" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -95,7 +125,9 @@
       <workItem from="1619335613182" duration="745000" />
       <workItem from="1619336384051" duration="3736000" />
       <workItem from="1619340146725" duration="374000" />
-      <workItem from="1619340633189" duration="4017000" />
+      <workItem from="1619340633189" duration="25539000" />
+      <workItem from="1619524597954" duration="16000" />
+      <workItem from="1619850563709" duration="7546000" />
     </task>
     <servers />
   </component>
@@ -104,6 +136,12 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/fetching-data" />
+      <path value="$PROJECT_DIR$/inversion-of-control" />
+      <path value="$PROJECT_DIR$/src/fetching-data" />
+      <path value="$PROJECT_DIR$/src/inversion-of-control" />
+    </ignored-roots>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -32,9 +32,13 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test ./src",
     "eject": "react-scripts eject",
     "lint": "prettier --write ."
+  },
+  "devDependencies": {
+    "@types/chai-dom": "^0.0.10",
+    "chai-dom": "^1.9.0"
   },
   "eslintConfig": {
     "extends": [

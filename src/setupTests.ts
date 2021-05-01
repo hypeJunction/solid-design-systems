@@ -10,3 +10,4 @@ const sinonChai = require("sinon-chai");
 
 chai.should();
 chai.use(sinonChai);
+chai.use(require("chai-dom"));
