@@ -48,6 +48,7 @@ export function CocktailsController() {
         <AsyncLoading>
           <div className="progress">
             <span className="progress-bar" />
+            <span className="is-hidden" aria-hidden="true">Loading...</span>
           </div>
         </AsyncLoading>
         <AsyncRefreshing>
