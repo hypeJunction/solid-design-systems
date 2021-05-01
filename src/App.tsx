@@ -1,12 +1,20 @@
+import React from "react";
+import { FormattedDateTime } from "./DateTime/Components";
 import { ServiceProvider } from "./Container";
 import { Services, services } from "./Services";
-import React from "react";
-import { CocktailsController } from "./Cocktails/Controllers";
+import { DateTimeFormat, useTimer } from "./DateTime/Services";
+import "./App.css";
 
-export function CocktailApp() {
+export const now = () => new Date();
+
+export function App() {
+  const { time } = useTimer();
+
   return (
-    <ServiceProvider<Services> services={services}>
-      <CocktailsController />
-    </ServiceProvider>
+    <div className="app">
+      <ServiceProvider<Services> services={services}>
+        <FormattedDateTime format={DateTimeFormat.TIME} date={time} />
+      </ServiceProvider>
+    </div>
   );
 }

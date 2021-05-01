@@ -1,21 +1,24 @@
 import { Container, ServiceFactoryFn, ServiceFactoryMap } from "./Container";
-import { ApiClient, send } from "./Http";
-import { CocktailsDb, CocktailsService } from "./Cocktails/Services";
+import {
+  DateTimeFormatterConfig,
+  DateTimeService,
+  dateTimeService,
+} from "./DateTime/Services";
 
 const config = {
-  cocktailsDbBaseUrl:
-    process.env.COCKTAILS_DB_BASE_URL ||
-    "https://www.thecocktaildb.com/api/json",
+  dateTimeFormatter: {
+    preferredTimeFormat: "HH:mm:ss",
+  } as DateTimeFormatterConfig,
 };
 
 export interface ConfigService extends ServiceFactoryMap {
   config: ServiceFactoryFn<typeof config>;
 }
 
-export type Services = ConfigService & CocktailsService;
+export type Services = ConfigService & DateTimeService;
 
 export const services: Services = {
   config: () => config,
-  cocktailsDb: (c: Container<Services>) =>
-    new ApiClient(c.config.cocktailsDbBaseUrl, send) as CocktailsDb,
+  formatDateTime: (c: Container<Services>) =>
+    dateTimeService(c.config.dateTimeFormatter),
 };
