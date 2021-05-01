@@ -5,29 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fe83500f-f9fc-4221-ac61-f71d572f0c20" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Async/Async.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Async/AsyncState.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Async/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Components/CockitalsFilter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Components/CocktailCard.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Components/CocktailList.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Components/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Controllers/CocktailsController.spec.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Controllers/CocktailsController.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Controllers/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Services/CocktailsDb.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Cocktails/Services/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/ApiClient.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/HttpTransportProvider.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/HttpTransportService.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Http/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Query/QueryBuilder.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Query/index.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Services.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/Services.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/solid.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webResources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +97,7 @@
       <workItem from="1619340633189" duration="25539000" />
       <workItem from="1619524597954" duration="16000" />
       <workItem from="1619850563709" duration="8875000" />
-      <workItem from="1619862019822" duration="276000" />
+      <workItem from="1619862019822" duration="835000" />
     </task>
     <servers />
   </component>
