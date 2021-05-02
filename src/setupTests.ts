@@ -1,13 +1,8 @@
-// jest-dom adds custom jest matchers for asserting on DOM nodes.
-// allows you to do things like:
-// expect(element).toHaveTextContent(/react/i)
-// learn more: https://github.com/testing-library/jest-dom
 import "@testing-library/jest-dom";
-
-const chai = require("chai");
-const sinon = require("sinon");
-const sinonChai = require("sinon-chai");
+import chai from "chai";
+import sinonChai from "sinon-chai";
+import chaiDom from "chai-dom";
 
 chai.should();
 chai.use(sinonChai);
-chai.use(require("chai-dom"));
+chai.use(chaiDom);

@@ -1,14 +1,11 @@
-import { RequestOptions, Transport } from "./HttpTransportProvider";
-import {
-  createMutationRequest,
-  createQueryRequest,
-} from "./HttpTransportService";
+import { RequestOptions, TransportInterface } from "./TransportInterface";
+import { createMutationRequest, createQueryRequest } from "./Transport";
 
 export class ApiClient {
   readonly baseUrl: string;
-  readonly transport: Transport;
+  readonly transport: TransportInterface;
 
-  constructor(baseUrl: string, transport: Transport) {
+  constructor(baseUrl: string, transport: TransportInterface) {
     this.baseUrl = baseUrl;
     this.transport = transport;
   }

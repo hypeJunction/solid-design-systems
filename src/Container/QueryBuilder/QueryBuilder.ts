@@ -10,7 +10,7 @@ export interface CollectionQuery {
   perPage: number | null;
 }
 
-type QueryBuilderAction =
+export type QueryBuilderAction =
   | {
       type: "SET_FILTERS";
       payload: Filters;
@@ -28,7 +28,7 @@ type QueryBuilderAction =
       payload: number;
     };
 
-function queryBuilderActionReducer(
+export function queryBuilderActionReducer(
   query: CollectionQuery,
   action: QueryBuilderAction
 ): CollectionQuery {

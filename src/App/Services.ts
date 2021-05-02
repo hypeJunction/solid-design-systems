@@ -1,6 +1,6 @@
-import { Container, ServiceFactoryFn, ServiceFactoryMap } from "./Container";
-import { ApiClient, send } from "./Http";
-import { CocktailsDb, CocktailsService } from "./Cocktails/Services";
+import { Container, ServiceFactoryFn, ServiceFactoryMap } from "../Container";
+import { ApiClient, send } from "../Container/Http";
+import { CocktailsDb, CocktailsService } from "../Cocktails/Services";
 
 const config = {
   cocktailsDbBaseUrl:

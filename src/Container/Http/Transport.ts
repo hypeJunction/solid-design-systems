@@ -1,9 +1,9 @@
 import {
-  BearerToken,
   Header,
   RequestOptions,
-  Transport,
-} from "./HttpTransportProvider";
+  TransportInterface,
+} from "./TransportInterface";
+import { BearerToken } from "./Identity";
 
 export function createQueryRequest(
   method: "GET" | "HEAD" | "OPTIONS",
@@ -29,7 +29,7 @@ export function createMutationRequest(
   });
 }
 
-export const send: Transport = <T>(request: Request): Promise<T> => {
+export const send: TransportInterface = <T>(request: Request): Promise<T> => {
   return fetch(request).then((res) => parseFetchResponse<T>(res));
 };
 
@@ -44,7 +44,7 @@ export const parseFetchResponse = async <T>(response: Response): Promise<T> => {
 
   const data = await getData();
 
-  if (response.ok && !data?.errors) {
+  if (response.ok) {
     return Promise.resolve(data);
   }
 

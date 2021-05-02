@@ -1,3 +1,3 @@
-export * from "./CockitalsFilter";
+export * from "./CocktailsFilter";
 export * from "./CocktailCard";
 export * from "./CocktailList";
