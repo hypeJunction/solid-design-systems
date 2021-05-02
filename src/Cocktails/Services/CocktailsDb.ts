@@ -5,7 +5,7 @@ import {
   Identity,
   ServiceFactoryFn,
   ServiceFactoryMap,
-} from "../../Container";
+} from "../../Services";
 
 export type CocktailsDb = ApiClient;
 

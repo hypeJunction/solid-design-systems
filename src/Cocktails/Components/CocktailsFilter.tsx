@@ -1,4 +1,4 @@
-import { Filters } from "../../Container";
+import { Filters } from "../../Services";
 import React from "react";
 import { Category } from "../Adapters/Categories";
 

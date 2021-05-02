@@ -1,4 +1,4 @@
-import { ServiceProvider } from "../Container";
+import { ServiceProvider } from "../Services";
 import { Services, services } from "./Services";
 import React from "react";
 import { CocktailsByCategory } from "../Cocktails/Containers";

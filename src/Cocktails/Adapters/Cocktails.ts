@@ -5,7 +5,7 @@ import {
   fetchCocktail,
   fetchCocktails,
 } from "../Services";
-import { CollectionQuery, useAsync, useServiceProvider } from "../../Container";
+import { CollectionQuery, useAsync, useServiceProvider } from "../../Services";
 import { Ingredient, mapIngredients } from "./Ingredients";
 
 export interface Cocktail {

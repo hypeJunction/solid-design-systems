@@ -3,7 +3,7 @@ import {
   ApiClient,
   ServiceProvider,
   TransportInterface,
-} from "../../Container";
+} from "../../Services";
 import { Services, services as defaultServices } from "../../App/Services";
 import { SinonSpy, stub } from "sinon";
 import { CocktailsByCategory } from "./CocktailsByCategory";

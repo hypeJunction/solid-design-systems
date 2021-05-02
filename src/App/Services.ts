@@ -1,5 +1,5 @@
-import { Container, ServiceFactoryFn, ServiceFactoryMap } from "../Container";
-import { ApiClient, send } from "../Container/Http";
+import { Container, ServiceFactoryFn, ServiceFactoryMap } from "../Services";
+import { ApiClient, send } from "../Services/Http";
 import { CocktailsDb, CocktailsService } from "../Cocktails/Services";
 
 const config = {

@@ -1,4 +1,4 @@
-import { useQueryBuilder } from "../../Container";
+import { useQueryBuilder } from "../../Services";
 import { CocktailList, CocktailsFilter } from "../Components";
 import React from "react";
 import { Category, useCategoriesQuery } from "../Adapters/Categories";

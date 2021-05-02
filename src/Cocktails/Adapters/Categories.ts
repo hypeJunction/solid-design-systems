@@ -1,5 +1,5 @@
 import { CategoryDto, CocktailsService, fetchCategories } from "../Services";
-import { useAsync, useServiceProvider } from "../../Container";
+import { useAsync, useServiceProvider } from "../../Services";
 
 export interface Category {
   id: string;
