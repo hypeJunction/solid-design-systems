@@ -8,7 +8,7 @@ export function CocktailList({ items }: { items: Array<Cocktail> }) {
       {items.map((item) => (
         <div
           key={item.id}
-          className="column is-one-quarter is-flex is-flex-direction-column"
+          className="column is-full-mobile is-half-tablet is-one-quarter-fullhd is-flex is-flex-direction-column"
         >
           <CocktailCard cocktail={item} />
         </div>
